@@ -1,7 +1,7 @@
 # 🟡 Community Browser CDN Build – JavaScript SDK Client Package
 
 This repository provides a **community-maintained, browser-ready distribution** of the npm module
-[`@aws-sdk/client-s3-control`](https://www.npmjs.com/package/@aws-sdk/client-s3-control/v/3.290.0).
+[`@aws-sdk/client-s3-control`](https://www.npmjs.com/package/@aws-sdk/client-s3-control/v/3.292.0).
 
 Each package is **automatically built and published to a CDN**, allowing developers to use the SDK client **directly in browsers** with **zero bundling or build steps**.
 
@@ -28,13 +28,13 @@ You can use this package directly in the browser via **jsDelivr** using an **imp
 CDN URL
 
 ```text
-https://cdn.jsdelivr.net/gh/cloud-sdk-builds/client-s3-control@3.290.0/index.min.mjs
+https://cdn.jsdelivr.net/gh/cloud-sdk-builds/client-s3-control@3.292.0/index.min.mjs
 ```
 
 SRI SHA Hash
 
 ```text
-sha384-AwmFp71OKqYz4uTry0hlJgNxW6kvECwJ6PeHh5qfqChYDFLEY1URKbrBohWkFMy+
+sha384-mh6IvQJWZPK+DZ3gH7ZI1rXMH9ZshT5JZSsZW5uuoN4DnN8BB9iKWXNw1ifhA3et
 ```
 
 ### 📌 Latest Version
@@ -61,10 +61,10 @@ ImportMap
 <script type="importmap">
       {
         "imports": {
-            "@aws-sdk/client-s3-control": "https://cdn.jsdelivr.net/gh/cloud-sdk-builds/client-s3-control@3.290.0/index.min.mjs"
+            "@aws-sdk/client-s3-control": "https://cdn.jsdelivr.net/gh/cloud-sdk-builds/client-s3-control@3.292.0/index.min.mjs"
         },
           "integrity": {
-            "https://cdn.jsdelivr.net/gh/cloud-sdk-builds/client-s3-control@3.290.0/index.min.mjs": "sha384-AwmFp71OKqYz4uTry0hlJgNxW6kvECwJ6PeHh5qfqChYDFLEY1URKbrBohWkFMy+"
+            "https://cdn.jsdelivr.net/gh/cloud-sdk-builds/client-s3-control@3.292.0/index.min.mjs": "sha384-mh6IvQJWZPK+DZ3gH7ZI1rXMH9ZshT5JZSsZW5uuoN4DnN8BB9iKWXNw1ifhA3et"
         }
       }
 </script>
@@ -81,10 +81,10 @@ Full Importmap Example
             <script type="importmap">
                   {
                     "imports": {
-                        "@aws-sdk/client-s3-control": "https://cdn.jsdelivr.net/gh/cloud-sdk-builds/client-s3-control@3.290.0/index.min.mjs"
+                        "@aws-sdk/client-s3-control": "https://cdn.jsdelivr.net/gh/cloud-sdk-builds/client-s3-control@3.292.0/index.min.mjs"
                     },
                       "integrity": {
-                        "https://cdn.jsdelivr.net/gh/cloud-sdk-builds/client-s3-control@3.290.0/index.min.mjs": "sha384-AwmFp71OKqYz4uTry0hlJgNxW6kvECwJ6PeHh5qfqChYDFLEY1URKbrBohWkFMy+"
+                        "https://cdn.jsdelivr.net/gh/cloud-sdk-builds/client-s3-control@3.292.0/index.min.mjs": "sha384-mh6IvQJWZPK+DZ3gH7ZI1rXMH9ZshT5JZSsZW5uuoN4DnN8BB9iKWXNw1ifhA3et"
                     }
                   }
             </script>
@@ -151,7 +151,7 @@ Replace
 
 When using CDN builds in production environments:
 
-* Always pin to a specific version (`@3.290.0`)
+* Always pin to a specific version (`@3.292.0`)
 * Avoid using `latest` in production to prevent unexpected breaking changes
 
 ---
@@ -171,7 +171,7 @@ https://github.com/cloud-sdk-builds/.github/issues
 This distribution follows the license terms included in the repository:
 
 ```
-https://github.com/cloud-sdk-builds/client-s3-control/blob/refs/tags/3.290.0/LICENSE
+https://github.com/cloud-sdk-builds/client-s3-control/blob/refs/tags/3.292.0/LICENSE
 ```
 
 ---
